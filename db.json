@@ -1,0 +1,89 @@
+{
+  "category": [
+    {
+      "id": "1",
+      "name": "Head Phones"
+    },
+    {
+      "id": "2",
+      "name": "Watch"
+    },
+    {
+      "id": "3",
+      "name": "Laptop"
+    },
+    {
+      "id": "4",
+      "name": "Sport products"
+    }
+  ],
+  "products": [
+    {
+      "id": "3",
+      "name": "JBL Tune 510BT",
+      "price": "950000",
+      "categoryId": "1"
+    },
+    {
+      "id": "4",
+      "name": "MINBER",
+      "price": "1500000",
+      "categoryId": "2"
+    },
+    {
+      "id": "5",
+      "name": "Apple Watch Series 9",
+      "price": "5500000",
+      "categoryId": "2"
+    },
+    {
+      "id": "6",
+      "name": "Galaxy Watch 6",
+      "price": "4200000",
+      "categoryId": "2"
+    },
+    {
+      "id": "7",
+      "name": "Xiaomi Laptop",
+      "price": "1500000",
+      "categoryId": "3"
+    },
+    {
+      "id": "8",
+      "name": "MacBook Air M2",
+      "price": "12000000",
+      "categoryId": "3"
+    },
+    {
+      "id": "9",
+      "name": "Lenovo ThinkPad X1",
+      "price": "9500000",
+      "categoryId": "3"
+    },
+    {
+      "id": "10",
+      "name": "ASUS ROG Zephyrus",
+      "price": "13500000",
+      "categoryId": "3"
+    },
+    {
+      "id": "11",
+      "name": "WHEY protain",
+      "price": "780000",
+      "categoryId": "4"
+    },
+    {
+      "id": "12",
+      "name": "Adidas Football Ball",
+      "price": "450000",
+      "categoryId": "4"
+    },
+    {
+      "id": "a8d7",
+      "name": "HOCO Air Pods",
+      "price": "350000",
+      "categoryId": "1"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
