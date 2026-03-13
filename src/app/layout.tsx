@@ -7,8 +7,8 @@ const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] })
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] })
 
 export const metadata: Metadata = {
-    title: "Shop",
-    description: "Next.js Shop",
+    title: "Admin Panel",
+    description: "Next.js Admin Panel with Authentication and Product Management",
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

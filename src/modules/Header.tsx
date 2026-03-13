@@ -1,6 +1,6 @@
-import Link from 'next/link'
 import { cookies } from 'next/headers'
 import { redirect } from 'next/navigation'
+import NavLinks from '../components/NavLinks'
 
 const Header = async () => {
     const store = await cookies()
@@ -14,19 +14,8 @@ const Header = async () => {
     }
 
     return (
-        <header className='p-5 bg-black flex justify-center gap-5'>
-            <Link className='font-bold text-white' href="/">Home</Link>
-            <Link className='font-bold text-white' href="/products">Products</Link>
-            {isLoggedIn ? (
-                <>
-                    <Link className='font-bold text-white' href="/admin">Admin</Link>
-                    <form action={logout} style={{ display: 'inline' }}>
-                        <button className='font-bold text-red-400'>Logout</button>
-                    </form>
-                </>
-            ) : (
-                <Link className='font-bold text-yellow-400' href="/login">Login</Link>
-            )}
+        <header className='p-5 bg-black flex justify-center gap-7'>
+            <NavLinks isLoggedIn={isLoggedIn} logout={logout} />
         </header>
     )
 }

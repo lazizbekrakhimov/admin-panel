@@ -1,8 +1,7 @@
 import { CategoryType, ProductType } from "../../@types"
-import ProductContent from "../../modules/ProductContent"
+import ProductContent from "../../components/ProductContent"
 import { GetAll } from "../../service"
 
-// 1-usul: ISR
 export const revalidate = 60
 
 const Products = async () => {
